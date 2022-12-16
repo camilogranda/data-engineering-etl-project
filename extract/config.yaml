@@ -1,0 +1,14 @@
+news_sites:
+  cambiocolombia:
+    url: https://cambiocolombia.com
+    queries:
+      homepage_article_links: '.sc-hsl1be-0 a'
+      article_body: '.block-text p'
+      article_title: 'h1'
+  elpais:
+    url: https://www.elpais.com
+    queries:
+      homepage_article_links: '.c_t a' 
+      article_body: '.a_c > p, .a_c > h3'
+      article_title: 'h1'
+      
